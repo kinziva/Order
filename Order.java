@@ -62,7 +62,7 @@ public class Order {
 	    public static String randomMiddleNameLetter() {	
 		final String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		Random random = new Random();
-		int index = random.nextInt(24);
+		int index = random.nextInt(25);
 		return ""+abc.charAt(index)+".";
 		}
 	}
