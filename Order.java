@@ -13,7 +13,7 @@ public class Order {
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver",
-				"/Users/haticeevci/Documents/selenium dependencies/drivers/chromedriver");
+				"/Documents/selenium dependencies/drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx");
